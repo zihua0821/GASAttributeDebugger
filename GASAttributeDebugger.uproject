@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.5",
+	"Category": "Debug",
+	"Description": "Sample project for the GASAttributeDebugger editor plugin.",
+	"Modules": [
+		{ "Name": "GASAttributeDebuggerProject", "Type": "Runtime", "LoadingPhase": "Default" }
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GASAttributeDebugger",
+			"Enabled": true
+		}
+	]
+}

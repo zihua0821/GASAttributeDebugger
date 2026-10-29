@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "GAS Attribute Debugger",
+  "Description": "Inspect and modify GAS attributes of any actor at runtime.",
+  "Category": "Debug",
+  "Type": "Editor",
+  "CreatedBy": "zihua0821",
+  "CanContainContent": true,
+  "EnabledByDefault": true,
+  "Plugins": [
+    { "Name": "GameplayAbilities", "Enabled": true }
+  ],
+  "Modules": [
+    { "Name": "GASAttributeDebugger", "Type": "Editor", "LoadingPhase": "Default" }
+  ]
+}

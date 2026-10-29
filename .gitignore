@@ -1,0 +1,23 @@
+# Unreal Engine generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcworkspace
+*.xcodeproj
+
+# Visual Studio machine-specific workspace config
+.vsconfig
+# The sample project is only a host for the plugin and needs no project config.
+# The editor regenerates Config/ on launch and writes machine-specific values
+# into it (e.g. a random AndroidFileServer SecurityToken), so keep it out of git.
+Config/
